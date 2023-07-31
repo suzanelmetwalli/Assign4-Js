@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Login</title>
+</head>
+<body>
+ <div class="container">
+    <section class="my-5 text-center p-5 text-white w-75 mx-auto">
+        <!-- h1 my collapse with section margin -->
+        <h1 class="">Smart Login System</h1>
+        <div class="my-3">
+            <input type="text" class="form-control " placeholder="Enter your name" id="inputName">
+        </div>
+        <div class="my-3">
+            <input type="email" class="form-control" placeholder="Enter your email" id="inputEmail" >
+            <p id="emailReq" class="d-none text-danger text-center mb-0 mt-2"></p>
+        </div>
+        <div class="my-3">
+            <input type="password" class="form-control" placeholder="Enter your password" id="inputPass">
+        </div>
+        <div>
+            <p id="pRequired" class="d-none text-danger text-center mb-0"></p>
+        </div>
+        <button class="btn btn-outline-info my-3 d-inline-block w-100" id="btnSignup">Sign Up</button>
+        <span>you have an account? <a href="./index.html" class="text-white">Signin</a></span>
+    </section>
+ </div>
+    <script src="./js/register.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
